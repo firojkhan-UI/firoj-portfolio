@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import AppRoutes from "./routes/appRoutes";
 
 function App() {
+  console.log("Check, the file data::")
   const [theme, setTheme] = useState("light");
 
   useEffect(() => {
